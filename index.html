@@ -142,33 +142,115 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <img src="images/project1.jpg" alt="Wireless Data Transmission">
-                    <div class="project-content">
-                        <h3>Wireless Data Transmission Using RF Module and Arduino</h3>
-                        <p>Designed a wireless communication system using RF transmitter and receiver modules. Simulated and tested the system using Proteus for seamless data flow between Arduinos.</p>
-                    </div>
+   <!-- Replace your current projects section with this -->
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="section-title">Electronics Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/street-light.jpg" alt="Automatic Street Light System">
                 </div>
-                <div class="project-card">
-                    <img src="images/project2.jpg" alt="Electronics Projects">
-                    <div class="project-content">
-                        <h3>Basic Electronics Projects</h3>
-                        <ul>
-                            <li>Automatic Street Light System using LDR and Arduino</li>
-                            <li>Temperature Humidity Monitoring using DHT11 Sensor</li>
-                            <li>IR-Based Object Detection Circuit</li>
-                            <li>Battery Level Indicator using LM3914</li>
-                        </ul>
+                <div class="project-content">
+                    <h3>Automatic Street Light System</h3>
+                    <div class="project-tech">
+                        <span>LDR</span>
+                        <span>Arduino</span>
+                        <span>Relay Module</span>
                     </div>
+                    <p>An energy-efficient system that automatically turns street lights on/off based on ambient light levels using LDR sensors.</p>
+                    <ul class="project-features">
+                        <li>Uses LDR (Light Dependent Resistor) to detect darkness</li>
+                        <li>Arduino UNO microcontroller for processing</li>
+                        <li>Relay module to control high-voltage lights</li>
+                        <li>12V power supply implementation</li>
+                    </ul>
+                    <button class="project-details-btn">View Details</button>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/dht11.jpg" alt="Temperature Humidity Monitoring">
+                </div>
+                <div class="project-content">
+                    <h3>Temperature & Humidity Monitoring</h3>
+                    <div class="project-tech">
+                        <span>DHT11</span>
+                        <span>Arduino</span>
+                        <span>LCD Display</span>
+                    </div>
+                    <p>Real-time environmental monitoring system using DHT11 sensor with data display.</p>
+                    <ul class="project-features">
+                        <li>DHT11 sensor for temperature and humidity readings</li>
+                        <li>16x2 LCD display for output</li>
+                        <li>Data logging capability</li>
+                        <li>Threshold alert system</li>
+                    </ul>
+                    <button class="project-details-btn">View Details</button>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/ir-sensor.jpg" alt="IR-Based Object Detection">
+                </div>
+                <div class="project-content">
+                    <h3>IR-Based Object Detection</h3>
+                    <div class="project-tech">
+                        <span>IR Sensor</span>
+                        <span>Op-Amp</span>
+                        <span>Buzzer</span>
+                    </div>
+                    <p>Proximity detection system using infrared technology for object detection.</p>
+                    <ul class="project-features">
+                        <li>IR transmitter-receiver pair</li>
+                        <li>LM358 Op-Amp for signal conditioning</li>
+                        <li>Visual and audible alerts</li>
+                        <li>Adjustable detection range</li>
+                    </ul>
+                    <button class="project-details-btn">View Details</button>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/battery-indicator.jpg" alt="Battery Level Indicator">
+                </div>
+                <div class="project-content">
+                    <h3>Battery Level Indicator</h3>
+                    <div class="project-tech">
+                        <span>LM3914</span>
+                        <span>LED Bar</span>
+                        <span>Voltage Divider</span>
+                    </div>
+                    <p>Visual battery level monitoring system using LM3914 dot/bar display driver.</p>
+                    <ul class="project-features">
+                        <li>LM3914 IC for LED driving</li>
+                        <li>10-segment LED display</li>
+                        <li>Precision voltage reference</li>
+                        <li>Adjustable for different battery types</li>
+                    </ul>
+                    <button class="project-details-btn">View Details</button>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <!-- Content will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Certifications Section -->
     <section id="certifications" class="section">
